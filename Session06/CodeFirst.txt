@@ -22,6 +22,10 @@
 			3. POCO - (Plain Old CLR Object) - Entity
 			4. Add Migration
 				dotnet ef migrations add <NAME>
-			5. Update Databese
+			5. 
 				dotnet ef database update
 
+
+		Config:
+			Attribute base
+			Fluent API
