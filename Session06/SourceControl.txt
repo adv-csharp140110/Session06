@@ -1,0 +1,21 @@
+﻿Source Control
+	Term:
+		Repository 
+			-> copy : clone
+
+	1.Central
+		Subversion
+		TFS, TFVC
+		TFS : TFVC, GIT
+			-> AzerDevOps
+	2.Distributed
+		Git
+		hg
+		perforce
+
+
+GIT:
+	Github, gitlabs, bitbucket, AzerDevOps
+
+
+
