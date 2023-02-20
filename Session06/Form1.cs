@@ -11,11 +11,14 @@ namespace Session06
 
         private void buttonAddCountry_Click(object sender, EventArgs e)
         {
+            //CRUD+, Creat
+            // Respository Pattern
             using (var contex = new AppDbContext()) {
                 var model = new Country { Name = "Iran" };
                 contex.Countries.Add(model);
                 contex.SaveChanges();
             }
+
             MessageBox.Show("🚀");
         }
     }
