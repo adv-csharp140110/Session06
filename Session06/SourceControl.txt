@@ -19,6 +19,7 @@ GIT:
 
 	1. Clone
 	2. commit -> faqat to system khodemoon
-
+	3. push
+	4. pull
 
 
