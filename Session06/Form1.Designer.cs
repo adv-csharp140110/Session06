@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.buttonAddCountry = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // buttonAddCountry
+            // 
+            this.buttonAddCountry.Location = new System.Drawing.Point(12, 12);
+            this.buttonAddCountry.Name = "buttonAddCountry";
+            this.buttonAddCountry.Size = new System.Drawing.Size(130, 23);
+            this.buttonAddCountry.TabIndex = 0;
+            this.buttonAddCountry.Text = "Add Country";
+            this.buttonAddCountry.UseVisualStyleBackColor = true;
+            this.buttonAddCountry.Click += new System.EventHandler(this.buttonAddCountry_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonAddCountry);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Button buttonAddCountry;
     }
 }

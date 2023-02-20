@@ -1,1 +1,27 @@
-﻿
+﻿EF 
+	DB First (.net core support nemishe)
+	Code First
+		Provider
+			SQL Server
+			MySQL
+			Postgres
+			Oracle
+			
+		Steps:
+			1. install packages
+				dotnet tool install --global dotnet-ef
+					dotnet tool update --global dotnet-ef
+
+				Micrisft.EntityFrameworkCore.SqlServer
+				Micrisft.EntityFrameworkCore.Design
+			
+			2. DB Context - DbContext
+				1. Connection string
+				2. List Entity ...
+
+			3. POCO - (Plain Old CLR Object) - Entity
+			4. Add Migration
+				dotnet ef migrations add <NAME>
+			5. Update Databese
+				dotnet ef database update
+
