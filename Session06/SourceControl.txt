@@ -17,5 +17,8 @@
 GIT:
 	Github, gitlabs, bitbucket, AzerDevOps
 
+	1. Clone
+	2. commit -> faqat to system khodemoon
+
 
 
